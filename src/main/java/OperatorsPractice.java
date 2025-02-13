@@ -39,7 +39,15 @@ public class OperatorsPractice {
         // TODO: Return "Child" if age < 13
         // Return "Teen" if age is between 13 and 19
         // Return "Adult" if age is 20 or older
-        return ""; // Replace with your code
+
+        if (age < 13) {
+
+            return "child";
+        }
+        else if (age >= 13 && age < 20) {
+            return "teen";
+        }      
+        return "Adult";
     }
 
     // Test your solutions
